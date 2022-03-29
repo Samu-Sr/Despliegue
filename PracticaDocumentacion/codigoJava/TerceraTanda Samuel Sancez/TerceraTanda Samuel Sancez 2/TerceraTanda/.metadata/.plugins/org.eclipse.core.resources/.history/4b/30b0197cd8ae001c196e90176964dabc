@@ -1,0 +1,56 @@
+package Ej;
+
+public class portatiles extends ordenadores {
+		
+		private int memoria;
+		private String autonomia;
+		
+		public portatiles() {
+			super();
+		}
+		public portatiles(String procesador) {
+			super(procesador);
+		}
+		public portatiles(String producto, String codigo, String procesador, int memoria, String autonomia) {
+			super(producto, codigo, procesador);
+			this.memoria = memoria;
+			this.autonomia = autonomia;
+		}
+
+		public int getMemoria() {
+			return memoria;
+		}
+
+		public void setMemoria(int memoria) {
+			this.memoria = memoria;
+		}
+
+		public String getAutonomia() {
+			return autonomia;
+		}
+
+		public void setAutonomia(String autonomia) {
+			this.autonomia = autonomia;
+		}
+		
+		/**
+		 * Esta funcion recoge los valores guardados en esta calse y en la clase padre en un array.
+		 */
+		
+		@Override
+		public String toString() {
+			return "Portatiles [Memoria =" + memoria + ", autonomia=" + autonomia + "] "+super.toString();
+		}
+		
+		public double precioPortatil() {
+			
+			double precio = 2897.99;
+			int suplemento = 250;
+			
+				if (memoria == 1500) {
+					precio = precio + suplemento;
+				}
+				return precio;
+			}
+	
+}

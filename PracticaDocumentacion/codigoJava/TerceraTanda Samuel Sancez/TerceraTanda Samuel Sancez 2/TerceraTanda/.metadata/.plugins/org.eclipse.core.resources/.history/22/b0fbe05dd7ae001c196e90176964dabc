@@ -1,0 +1,69 @@
+package Ej;
+
+/**
+ * 
+ * @author Samuel
+ * 
+ * En esta clase se encuentran todos los valores de los productos sobremesa.
+ *
+ */
+
+public class sobremesa extends ordenadores{
+	
+	/**
+	 * Estos atributos hacen referencia a los valores que tendra el producto de capacidad de memoria
+	 * y el tamaño de la pantalla
+	 */
+	
+	private int memoria;
+	private int tam;
+	
+	public sobremesa(){
+		super();
+	}
+	
+	public sobremesa(String procesador) {
+		super(procesador);
+	}
+	
+	public sobremesa(String producto, String codigo, String procesador, int memoria, int tam) {
+		super(producto, codigo, procesador);
+		this.memoria = memoria;
+		this.tam = tam;
+	}
+
+	public int getMemoria() {
+		return memoria;
+	}
+
+	public void setMemoria(int memoria) {
+		this.memoria = memoria;
+	}
+
+	public int getTam() {
+		return tam;
+	}
+
+	public void setTam(int tam) {
+		this.tam = tam;
+	}
+	
+	@Override
+	public String toString() {
+		return "Sobremesa [Memoria =" + memoria + ", tamaÃ±o=" + tam + "] "+super.toString();
+	}
+	
+	@Override
+	public double precioSobremesa() {
+		
+		double precio = 1345.99;
+		int suplemento = 250;
+		
+			if (memoria == 1000) {
+				precio = precio + suplemento;
+			}
+			return precio;
+		}
+	
+}
+
