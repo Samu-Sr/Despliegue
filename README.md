@@ -18,4 +18,4 @@
  
 # Objetivo del repositorio 
 ### Este repositorio ha sido creado para guardar la aplicación que hemos desarrollado para la gestion de compras de una tienda de tecnologia y un JavaDoc de la misma.
-! [Imagen de una tienda web onlinne] (https://yt3.ggpht.com/ytc/AKedOLR-yU09OHmk6DxYxG37dA9TgtW3DK3O9y25JWL6iQ=s900-c-k-c0x00ffffff-no-rj)
+! [Imagen de una tienda web onlinne] (https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202111120425)
