@@ -20,4 +20,4 @@
 ### Este repositorio ha sido creado para guardar la aplicación que hemos desarrollado para la gestion de compras de una tienda de tecnologia y un JavaDoc de la misma.
 ![Imagen de una tienda web onlinne](https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202111120425)
 
-[Esto es un ejemplo de tienda online: ](https://www.apple.com/es/)
+[Haz click en este enlace para visitar una tienda online.](https://www.apple.com/es/)
